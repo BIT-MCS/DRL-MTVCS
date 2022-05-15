@@ -7,8 +7,8 @@ With the popularity of drones and driverless cars, vehicular crowdsensing (VCS) 
 ## :wrench: Installation
 1. Clone repo
     ```bash
-    git clone https://github.com/BIT-MCS/DRL-freshMCS.git
-    cd DRL-freshMCS
+    git clone https://github.com/BIT-MCS/DRL-MTVCS.git
+    cd DRL-MTVCS
     ```
 2. Install dependent packages
     ```sh
