@@ -1,5 +1,5 @@
 # DRL-MTVCS
-Additional materials for paper "[Multi-Task-Oriented Vehicular Crowdsensing: A Deep Learning Approach](https://ieeexplore.ieee.org/document/9155393)" accepted by IEEE INFOCOM 2020.
+This is the code accompanying the paper: "[Multi-Task-Oriented Vehicular Crowdsensing: A Deep Learning Approach](https://ieeexplore.ieee.org/document/9155393)", published in IEEE INFOCOM 2020.
 
 ## :page_facing_up: Description
 With the popularity of drones and driverless cars, vehicular crowdsensing (VCS) becomes increasingly widely-used by taking advantage of their high-precision sensors and durability in harsh environments. Since abrupt sensing tasks usually cannot be prepared beforehand, we need a generic control logic fit-for-use all tasks which are similar in nature, but different in their own settings like Point-of-Interest (PoI) distributions. The objectives include to simultaneously maximize the data collection amount, geographic fairness, and minimize the energy consumption of all vehicles for all tasks, which usually cannot be explicitly expressed in a closed-form equation, thus not tractable as an optimization problem. In this paper, we propose a deep reinforcement learning (DRL)-based centralized control, distributed execution framework for multi-task-oriented VCS, called "DRL-MTVCS". It includes an asynchronous architecture with spatiotemporal state information modeling, multi-task-oriented value estimates by adaptive normalization, and auxiliary vehicle action exploration by pixel control. We compare with three baselines, and results show that DRL-MTVCS outperforms all others in terms of energy efficiency when varying different numbers of tasks, vehicles, charging stations and sensing range.
@@ -58,3 +58,16 @@ Corresponding author: Chi Harold Liu.
 ## :e-mail: Contact
 
 If you have any question, please email `3120215520@bit.edu.cn`.
+
+## Paper
+If you are interested in our work, please cite our paper as
+
+```
+@INPROCEEDINGS{liu2020task,
+    author={Liu, Chi Harold and Dai, Zipeng and Yang, Haoming and Tang, Jian},
+    booktitle={IEEE Conference on Computer Communications (INFOCOM)},   
+    title={Multi-Task-Oriented Vehicular Crowdsensing: A Deep Learning Approach},   
+    year={2020},  
+    pages={1123-1132},  
+}
+```
